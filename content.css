@@ -1,0 +1,46 @@
+/* --- START OF FILE content.css --- */
+.neomod-hidden-comment .neomod-content-wrapper {
+    /* Initially hide the content */
+    display: none;
+}
+
+.neomod-hidden-comment {
+     /* Add some visual indication if needed, like slight dimming */
+     /* opacity: 0.7; */
+     border-left: 3px solid #ffc107; /* Example: yellow border */
+     padding-left: 5px;
+     margin-left: -8px; /* Adjust based on layout */
+}
+
+.neomod-placeholder {
+    padding: 8px;
+    color: #888;
+    font-style: italic;
+    font-size: 12px;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    margin: 4px 0;
+    background-color: #fdfdfd;
+    display: flex; /* Align button nicely */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.neomod-show-button {
+    margin-left: 8px;
+    padding: 2px 6px;
+    font-size: 11px;
+    color: #3897f0; /* Instagram blue */
+    background: none;
+    border: 1px solid #3897f0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: normal; /* Override italic placeholder */
+    white-space: nowrap; /* Prevent button text wrapping */
+}
+
+.neomod-show-button:hover {
+    background-color: rgba(56, 151, 240, 0.1);
+}
+/* --- END OF FILE content.css --- */

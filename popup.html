@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neomod Filter</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+        <img src="icon.png" alt="neomod logo" width="24" height="24">
+        <h2>neomod Filter</h2>
+    </div>
+
+    <div class="control-section">
+        <label class="switch">
+            <input type="checkbox" id="toggleFilter">
+            <span class="slider round"></span>
+        </label>
+        <span id="status">Filtering: OFF</span>
+    </div>
+
+    <div class="info-section">
+         <p id="filter-mode">Mode: Local Keywords</p>
+         <p id="hidden-count">Hidden on page: 0</p>
+    </div>
+
+    <!-- Optional: Add link to help/settings -->
+    <!-- <div class="footer">
+        <a href="#" id="settings-link">Settings</a>
+    </div> -->
+
+    <script src="popup.js"></script>
+</body>
+</html>
